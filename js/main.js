@@ -322,3 +322,22 @@ jQuery(document).ready(function($) {
 	});
 
 });
+
+
+
+
+
+// Popup jss
+
+
+    const popup = document.getElementById('popup');
+
+    // Function to close the popup manually
+    function closePopup() {
+      popup.style.display = 'none';
+    }
+
+    // Auto-hide after 10 seconds
+    setTimeout(() => {
+      popup.style.display = 'none';
+    }, 10000);
